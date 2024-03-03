@@ -10,7 +10,7 @@ const Store = async () => {
             <ul>
                 {products.results.map(product =>
                     <li key={product.id}>
-                        <img src={product.image} alt="Product Image"/>
+                        <img width='128' src={product.image} alt="Product Image"/>
                         {product.name} ${product.price}
                     </li>)}
             </ul>
